@@ -1,0 +1,20 @@
+version: '3'
+services:
+
+    ubuntu_1:
+        image: ubuntu:latest
+        tty: true
+        stdin_open: true
+    
+    ubuntu_2:
+        image: ubuntu:latest
+        tty: true
+        stdin_open: true
+
+    ubuntu_3:
+        image: ubuntu:latest
+        tty: true
+        stdin_open: true
+    
+    
+
