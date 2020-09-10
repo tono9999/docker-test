@@ -11,10 +11,10 @@ services:
         tty: true
         stdin_open: true
 
-    ubuntu_3:
-        image: ubuntu:latest
-        tty: true
-        stdin_open: true
+    grafana:
+        image: grafana/grafana:latest
+        ports:
+            - '3000:3000'
     
     
 
